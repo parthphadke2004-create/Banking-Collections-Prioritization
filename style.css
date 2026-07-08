@@ -1,0 +1,224 @@
+/* ==========================================
+   GLOBAL APP
+========================================== */
+
+.main {
+    background: linear-gradient(180deg,#f8fbff 0%,#eef5ff 100%);
+}
+
+
+/* ==========================================
+   HEADINGS
+========================================== */
+
+h1{
+    color:#0f172a;
+    font-weight:800;
+    letter-spacing:-0.5px;
+}
+
+h2{
+    color:#1e3a8a;
+    font-weight:700;
+}
+
+h3{
+    color:#2563eb;
+    font-weight:600;
+}
+
+
+/* ==========================================
+   METRIC CARDS
+========================================== */
+
+div[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:22px;
+
+    border:1px solid #dbeafe;
+
+    box-shadow:
+        0 8px 20px rgba(37,99,235,.08);
+
+    transition:0.25s;
+}
+
+div[data-testid="metric-container"]:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 12px 30px rgba(37,99,235,.18);
+
+}
+
+
+/* ==========================================
+   SIDEBAR
+========================================== */
+
+section[data-testid="stSidebar"]{
+
+    background:
+    linear-gradient(
+        180deg,
+        #0f172a 0%,
+        #1e40af 100%
+    );
+}
+
+section[data-testid="stSidebar"] *{
+    color:white;
+}
+
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.stButton>button,
+.stDownloadButton>button{
+
+    background:linear-gradient(
+        90deg,
+        #2563eb,
+        #3b82f6
+    );
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:12px 22px;
+
+    font-weight:600;
+
+    transition:.2s;
+}
+
+.stButton>button:hover,
+.stDownloadButton>button:hover{
+
+    transform:scale(1.03);
+
+    box-shadow:
+        0 8px 20px rgba(37,99,235,.30);
+
+}
+
+
+/* ==========================================
+   DATAFRAMES
+========================================== */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:18px;
+
+    border:1px solid #dbeafe;
+
+    overflow:hidden;
+
+    box-shadow:
+        0 6px 18px rgba(0,0,0,.06);
+
+}
+
+
+/* ==========================================
+   FILE UPLOADER
+========================================== */
+
+[data-testid="stFileUploader"]{
+
+    background:white;
+
+    border-radius:18px;
+
+    border:2px dashed #93c5fd;
+
+    padding:18px;
+
+}
+
+
+/* ==========================================
+   ALERT BOXES
+========================================== */
+
+.stSuccess,
+.stInfo,
+.stWarning,
+.stError{
+
+    border-radius:16px;
+
+}
+
+
+/* ==========================================
+   TABS
+========================================== */
+
+button[data-baseweb="tab"]{
+
+    background:white;
+
+    border-radius:12px 12px 0 0;
+
+    margin-right:8px;
+
+    font-weight:600;
+
+}
+
+button[data-baseweb="tab"][aria-selected="true"]{
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+
+/* ==========================================
+   PLOTS
+========================================== */
+
+.js-plotly-plot{
+
+    border-radius:18px;
+
+    background:white;
+
+    padding:8px;
+
+    box-shadow:
+        0 6px 18px rgba(0,0,0,.06);
+
+}
+
+
+/* ==========================================
+   SCROLLBAR
+========================================== */
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#3b82f6;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#edf2ff;
+}
